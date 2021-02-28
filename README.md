@@ -3,9 +3,9 @@ Blinkit for the Solana blockchain, Blink your devices on Solana blockchain actio
 
 
 
-Help
+Help / Important!
 
-- Make sure there are no spaces in the Blinkit program folder path.
+- Make sure there are no spaces or special characters like - . * % £ " etc in the Blinkit program folder path.
 
 - For Smarthome devices, your device need to run opensource software Tasmota. Device compatibility list: https://templates.blakadder.com/all.html
 
