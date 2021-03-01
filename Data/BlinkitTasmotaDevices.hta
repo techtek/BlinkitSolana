@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Blinkit</title>
+
+
+<style>
+body {
+  background-image: url('https://i.imgur.com/auvWlRp.jpg');
+  overflow: hidden; /* Hide scrollbars */
+}
+
+h1 {
+  font-family: Roboto;
+  color: white;
+  text-align: left;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+}
+
+b {
+  font-family: Roboto;
+  font-size: 20px;
+  color: lightgrey;
+  clear: both;
+  
+}
+
+tr {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+}
+
+td {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+}
+
+
+/* unvisited link */
+a:link {
+  color: #9e9d9d;
+  font-size: 13px;
+}
+
+/* visited link */
+a:visited {
+  color: #9e9d9d;
+  font-size: 13px;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9e9d9d;
+  font-size: 13px;
+}
+
+/* selected link */
+a:active {
+  color: #9e9d9d;
+  font-size: 13px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.Button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+h2{
+    display: inline;
+	font-size: 12px;
+	color: white;
+}
+
+
+h6{
+    display: inline;
+	font-size: 13px;
+	color: white;
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+   <HTA:APPLICATION
+       ID="Blinkit"
+       APPLICATIONNAME="Blinkit"
+       ICON="favicon.ico"
+	   navigable="yes"
+	   BORDER="DIALOG"
+	   MAXIMIZEBUTTON="NO"
+       SCROLL="NO"
+	   SYSMENU="yes"
+    
+	   
+	   
+	   >
+
+
+	   
+
+	   
+	   
+	   
+<script>
+  window.resizeTo(480, 800);
+</script>
+
+
+
+</head>
+
+
+
+
+
+
+
+<body SCROLL="no">
+
+<a href="Devices.hta">
+<img border="0" align="right" alt="Choose a other device" src=".\Images\backbutton.png" style="opacity:0.4;filter:alpha(opacity=100)width="auto" height="23">
+</a>
+
+<br></br>
+
+
+<div class="header">
+<br></br>
+<center><img src=".\Images\logoheader.png" alt="" height="40px" width="auto"></center>
+<center><h6>V4.3 - Brings Solana to your devices</h6></center>
+<center><img src=".\Images\solanalogotiny.png" alt="" style="opacity:0.5;filter:alpha(opacity=100) height="30px" width="auto"></center>
+</div>
+
+<br></br>
+<br></br>
+
+<br></br>
+
+<center><p>Choose a device</p></center>
+
+
+<center>
+<table>
+<thead>
+  <tr>
+    <th><a href="BlinkitTasmotaBulb.hta">
+     <img border="0" alt="Tasmota light bulbs" src=".\Images\tasmotabulb.png" width="100px" height="auto"></th>
+    <th><a href="BlinkitTasmotaRGB.hta">
+     <img border="0" alt="Tasmota RGB lights" src=".\Images\tasmotargbbulb.png" width="100px" height="auto"></th>
+      <th><a href="BlinkitTasmotaSwitch.hta">
+     <img border="0" alt="Tasmota power switches" src=".\Images\tasmotaswitch.png" width="100px" height="auto"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+</body>
+
+  <script type="text/javascript">
+  function openURL()
+  {
+      var shell = new ActiveXObject("WScript.Shell");
+      shell.run("https://explorer.harmony.one/#/address/one1c8gqea48spdwk0qxr285fgshh6aew80xa4fmqv");
+  }
+  </script>
+
+<div class="footer">
+<center>
+<a href="About.hta" target="_self">About</a> <a href="https://discord.gg/73h8XqP" target="_blank">Support</a> <a href="https://explorer.harmony.one/#/address/one1c8gqea48spdwk0qxr285fgshh6aew80xa4fmqv" target="_blank">Donate</a> <a href="https://explorer.harmony.one/" target="_blank">Block Explorer</a>
+
+<img type="button" onclick="openURL()" value="Open Google" border="0" alt="Donate to Blinkit" src=".\Images\donate.png" width="430px" height="auto">
+<br></br>
+</center>
+</div>
+
+
+
+</html>
